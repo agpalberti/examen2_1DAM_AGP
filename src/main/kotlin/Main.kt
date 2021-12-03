@@ -54,10 +54,10 @@ fun main() {
     println("Coordenadas de pA: " + pA.obtenerCoordenadas())
     println("Coordenadas de pB: " + pB.obtenerCoordenadas())
 
-    println("Distancia entre los puntos pA y pB: " + Punto.distancia(pA,pB))
+    println("Distancia entre los puntos pA y pB: " + Punto.distancia(pA, pB))
 
     println("Componente AB: " + Punto.componenteDeVector(pA, pB))
-    
+
     println("Lista de puntos: " + arrayPuntos.contentToString())
     println("Localización Geográfica NS: " + Punto.localizacionGeograficaNS(arrayPuntos))
 }
